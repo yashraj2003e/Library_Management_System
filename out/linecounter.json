@@ -1,0 +1,226 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "d:\\SOA Project\\SOA_Project",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2023-11-25 02:32:27",
+            "filesum": 27,
+            "codesum": 37347,
+            "commentsum": 35,
+            "blanksum": 68,
+            "statistics": {
+                "": {
+                    "code": 36,
+                    "comment": 2,
+                    "blank": 10
+                },
+                ".json": {
+                    "code": 37118,
+                    "comment": 0,
+                    "blank": 11
+                },
+                ".js": {
+                    "code": 72,
+                    "comment": 1,
+                    "blank": 9
+                },
+                ".css": {
+                    "code": 56,
+                    "comment": 0,
+                    "blank": 8
+                },
+                ".md": {
+                    "code": 42,
+                    "comment": 8,
+                    "blank": 30
+                },
+                ".txt": {
+                    "code": 3,
+                    "comment": 1,
+                    "blank": 0
+                },
+                ".html": {
+                    "code": 20,
+                    "comment": 23,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "Backend\\Index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": "Frontend\\.gitignore"
+                },
+                {
+                    "blank": 2,
+                    "code": 17908,
+                    "comment": 0,
+                    "filename": "Frontend\\package-lock.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "Frontend\\package.json"
+                },
+                {
+                    "filename": "Frontend\\public\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 23,
+                    "filename": "Frontend\\public\\index.html"
+                },
+                {
+                    "filename": "Frontend\\public\\logo192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\public\\logo512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "Frontend\\public\\manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "Frontend\\public\\robots.txt"
+                },
+                {
+                    "blank": 15,
+                    "code": 21,
+                    "comment": 4,
+                    "filename": "Frontend\\README.md"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\App.js"
+                },
+                {
+                    "filename": "Frontend\\src\\assets\\book.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\assets\\company.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\assets\\companyName.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\assets\\landing_page.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\assets\\landing_page1.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\assets\\landing_page2.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\assets\\landing_page3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 8,
+                    "code": 56,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\index.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 50,
+                    "comment": 1,
+                    "filename": "Frontend\\src\\pages\\HomePage.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\pages\\Sidebar.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 19114,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 15,
+                    "code": 21,
+                    "comment": 4,
+                    "filename": "README.md"
+                }
+            ]
+        }
+    ]
+}

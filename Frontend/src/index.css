@@ -1,4 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Recursive:wght@600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.main-page h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-page-buttons button {
+  font-family: "Recursive", sans-serif;
+}
+
+.main-page-buttons .admin-btn {
+  position: absolute;
+  top: 75%;
+  left: 65%;
+  border-radius: 5px;
+  padding: 9px 25px;
+  font-size: 1.9rem;
+  border: none;
+  font-weight: lighter;
+  cursor: pointer;
+  background-color: #14537a;
+  color: white;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s;
+}
+
+.main-page-buttons .student-btn {
+  position: absolute;
+  top: 75%;
+  left: 80%;
+  padding: 9px 25px;
+  font-size: 1.9rem;
+  border: none;
+  font-weight: lighter;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #14537a;
+  color: white;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s;
+}
+
+.main-page-buttons .admin-btn:hover {
+  top: 74%;
+  box-shadow: 0px 3px 8px 5px yellow;
+}
+
+.main-page-buttons .student-btn:hover {
+  top: 74%;
+  box-shadow: 0px 3px 8px 5px yellow;
+}
+/* 
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 800px;
+  margin: 0 auto;
+  backdrop-filter: blur(6px) saturate(99%);
+  -webkit-backdrop-filter: blur(6px) saturate(99%);
+  background-color: rgba(216, 208, 208, 0.22);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+} */
+/* 
+body {
+  background-image: url("./assets/book.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+} */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container img {
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #14537a;
 }

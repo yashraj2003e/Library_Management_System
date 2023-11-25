@@ -1,0 +1,50 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2023-11-25 02:32:27
+count workspace : d:\SOA Project\SOA_Project
+total files : 27
+total code lines : 37347
+total comment lines : 35
+total blank lines : 68
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |               |             36|              2|             10|  0.096|
+   |          .json|          37118|              0|             11|     99|
+   |            .js|             72|              1|              9|   0.19|
+   |           .css|             56|              0|              8|   0.15|
+   |            .md|             42|              8|             30|   0.11|
+   |           .txt|              3|              1|              0| 0.0080|
+   |          .html|             20|             23|              0|  0.054|
+   -------------------------------------------------------------------------
+.gitignore, code is 18, comment is 1, blank is 5.
+Backend\Index.js, code is 0, comment is 0, blank is 0.
+Frontend\.gitignore, code is 18, comment is 1, blank is 5.
+Frontend\package-lock.json, code is 17908, comment is 0, blank is 2.
+Frontend\package.json, code is 35, comment is 0, blank is 3.
+Frontend\public\favicon.ico, it is a binary file.
+Frontend\public\index.html, code is 20, comment is 23, blank is 0.
+Frontend\public\logo192.png, it is a binary file.
+Frontend\public\logo512.png, it is a binary file.
+Frontend\public\manifest.json, code is 25, comment is 0, blank is 0.
+Frontend\public\robots.txt, code is 3, comment is 1, blank is 0.
+Frontend\README.md, code is 21, comment is 4, blank is 15.
+Frontend\src\App.js, code is 8, comment is 0, blank is 1.
+Frontend\src\assets\book.png, it is a binary file.
+Frontend\src\assets\company.png, it is a binary file.
+Frontend\src\assets\companyName.png, it is a binary file.
+Frontend\src\assets\landing_page.jpg, it is a binary file.
+Frontend\src\assets\landing_page1.jpg, it is a binary file.
+Frontend\src\assets\landing_page2.jpg, it is a binary file.
+Frontend\src\assets\landing_page3.png, it is a binary file.
+Frontend\src\index.css, code is 56, comment is 0, blank is 8.
+Frontend\src\index.js, code is 10, comment is 0, blank is 2.
+Frontend\src\pages\HomePage.js, code is 50, comment is 1, blank is 5.
+Frontend\src\pages\Sidebar.js, code is 4, comment is 0, blank is 1.
+package-lock.json, code is 19114, comment is 0, blank is 3.
+package.json, code is 36, comment is 0, blank is 3.
+README.md, code is 21, comment is 4, blank is 15.
+===============================================================================
