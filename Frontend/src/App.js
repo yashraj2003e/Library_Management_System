@@ -1,6 +1,7 @@
 import { useState } from "react";
-import HomePage from "./pages/HomePage";
-import Login from "./pages/Login";
+import HomePage from "./Components/HomePage";
+import Login from "./Components/Login";
+import Books from "./Components/Books";
 
 export default function App() {
   const [isLogin, setIsLogin] = useState(false);
@@ -8,6 +9,7 @@ export default function App() {
     <div>
       {!isLogin && <HomePage isLogin={setIsLogin} />}
       <Login />
+      <Books />
     </div>
   );
 }

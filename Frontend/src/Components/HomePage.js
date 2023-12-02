@@ -36,15 +36,7 @@ export default function HomePage({ isLogin }) {
   return (
     <>
       <div className="main-page" style={{ overflow: "hidden" }}>
-        <img
-          src={companyLogo}
-          style={{
-            position: "absolute",
-            width: "10rem",
-            left: "87vw",
-            top: "2%",
-          }}
-        ></img>
+        <img src={companyLogo} className="company-logo"></img>
         <img style={imageStyle} src={image}></img>
         <h1 style={headingStyle}>
           <span>🧠 Li</span>
