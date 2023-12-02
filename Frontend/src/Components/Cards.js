@@ -1,4 +1,4 @@
-import image from "./images/atomichabits.jpg";
+import image from "./images/Abstract.txt";
 export default function Card({ name, imgg }) {
   return (
     <div className="card">

@@ -1,4 +1,3 @@
-import { useEffect, useRef } from "react";
 import image from "./images/atomichabits.jpg";
 import image1 from "./images/clrs.jpg";
 import image2 from "./images/curious.jpg";
@@ -7,14 +6,7 @@ import SearchBar from "./SearchBar";
 import Logo from "./Logo";
 
 function Books() {
-  const books = useRef(undefined);
-
-  useEffect(() => {
-    const c = document.getElementsByClassName("cards");
-    books.current = c[0];
-  });
-
-  console.log(books.current);
+  const imggg = require("./images/atomichabits.jpg");
   return (
     <>
       <div className="books-page">
@@ -25,13 +17,7 @@ function Books() {
       <div className="content-section">
         <div className="content-section-width">
           <h1>
-            Total{" "}
-            <span className="gold-word">
-              {books.current === undefined
-                ? "0"
-                : books.current.childNodes.length}
-            </span>{" "}
-            Book(s) Found
+            Total <span className="gold-word">0</span> Book(s) Found
           </h1>
           <div className="cards">
             <Card name={"Atomic Habits"} imgg={image} />
@@ -51,7 +37,7 @@ function Books() {
             <Card name={"Atomic Habits"} imgg={image} />
             <Card name={"Introduction To Algorithms"} imgg={image1} />
             <Card name={"Atomic Habits"} imgg={image} />
-            <Card name={"Introduction To Algorithms"} imgg={image1} />
+            <Card name={"Introduction To Algorithms"} imgg={imggg} />
           </div>
         </div>
       </div>

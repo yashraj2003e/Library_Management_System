@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import bookImg from "../assets/book.png";
 
 export default function Login() {

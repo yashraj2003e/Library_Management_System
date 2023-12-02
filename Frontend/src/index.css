@@ -61,14 +61,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #011725;
 }
 
 .login-container img {
   height: 100vh;
-}
-
-.login-container {
-  background-color: #14537a;
 }
 
 .books-page {
