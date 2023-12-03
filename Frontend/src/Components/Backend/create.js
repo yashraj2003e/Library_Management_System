@@ -33,7 +33,8 @@ app.get("/test", (req, res) => {
 let filePath1 = "";
 app.post("/upload", upload.single("file"), (req, res) => {
   filePath1 = `${req.file.destination}/${req.file.filename}`;
-  res.json(filePath1.substring(1, filePath1.length));
+  filePath1 = req.file.filename;
+  res.json(filePath1);
 });
 
 app.post("/add-item", (req, res) => {
@@ -41,6 +42,7 @@ app.post("/add-item", (req, res) => {
   const name = req.body.name;
   const author = req.body.author;
   const issueCost = req.body.cost;
+  const genre = req.body.genre;
   const data = req.body.text;
 
   const xml = fs.readFileSync(filePath).toString();
@@ -55,6 +57,7 @@ app.post("/add-item", (req, res) => {
   const nameTag = doc.createElement("name");
   const authorTag = doc.createElement("author");
   const costTag = doc.createElement("issuecost");
+  const genreTag = doc.createElement("genre");
   const textTag = doc.createElement("text");
 
   imageTag.textContent = filePath1 === "" ? "none" : filePath1;
@@ -62,6 +65,7 @@ app.post("/add-item", (req, res) => {
   nameTag.textContent = name;
   authorTag.textContent = author;
   costTag.textContent = issueCost;
+  genreTag.textContent = genre;
   textTag.textContent = data;
 
   bookTag.appendChild(imageTag);
@@ -69,6 +73,7 @@ app.post("/add-item", (req, res) => {
   bookTag.appendChild(nameTag);
   bookTag.appendChild(authorTag);
   bookTag.appendChild(costTag);
+  bookTag.appendChild(genreTag);
   bookTag.appendChild(textTag);
 
   doc.documentElement.appendChild(bookTag);

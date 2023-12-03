@@ -10,7 +10,7 @@ const filePath = path.join(__dirname, "Books.xml");
 const app = express();
 app.use(express.json());
 
-app.get("/test", (req, res) => {
+app.get("/test", (_req, res) => {
   res.send("App is running !");
 });
 
@@ -21,7 +21,7 @@ app.delete("/delete-all", (req, res) => {
   const doc = new dom().parseFromString(xml, "application/xml");
 
   const totalBooks = select("/books/*", doc);
-  if (totalBooks.length == 0) {
+  if (totalBooks.length === 0) {
     res.json("File is already Empty !");
   } else {
     fs.truncateSync(filePath);

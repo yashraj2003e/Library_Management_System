@@ -1,12 +1,70 @@
-import image from "./images/atomichabits.jpg";
-import image1 from "./images/clrs.jpg";
-import image2 from "./images/curious.jpg";
-import Card from "./Cards";
+import React, { useEffect, useState } from "react";
 import SearchBar from "./SearchBar";
 import Logo from "./Logo";
+import Card from "./Cards";
+
+async function getBooks() {
+  try {
+    const result = await fetch("http://127.0.0.1:8082/get-items");
+    const data = await result.json();
+    return data;
+  } catch (error) {
+    console.error("Error fetching data:", error);
+    throw error;
+  }
+}
+
+async function deleteBook1(id) {
+  try {
+    const response = await fetch("http://127.0.0.1:8084/delete-item", {
+      method: "DELETE",
+      body: JSON.stringify({
+        id: id,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+
+    if (!response.ok) {
+      const message = "ERROR!";
+      throw new Error(message);
+    }
+
+    const res = await response.json();
+    return res;
+  } catch (error) {
+    console.error("Error:", error.message);
+    throw error;
+  }
+}
 
 function Books() {
-  const imggg = require("./images/atomichabits.jpg");
+  const [books, setBooks] = useState([]);
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const data = await getBooks();
+        setBooks(data);
+      } catch (error) {
+        setBooks([]);
+      }
+    }
+
+    fetchData();
+  }, []);
+
+  const deleteItem = async (id) => {
+    try {
+      const result = await deleteBook1(id);
+      const data = await getBooks();
+      setBooks(data);
+    } catch (error) {
+      console.log("CANNOT DELETE !");
+    }
+  };
+
   return (
     <>
       <div className="books-page">
@@ -17,27 +75,13 @@ function Books() {
       <div className="content-section">
         <div className="content-section-width">
           <h1>
-            Total <span className="gold-word">0</span> Book(s) Found
+            Total <span className="gold-word">{books.length}</span> Book(s)
+            Found
           </h1>
           <div className="cards">
-            <Card name={"Atomic Habits"} imgg={image} />
-            <Card name={"Introduction To Algorithms"} imgg={image1} />
-            <Card
-              name={"The Curious Incident of the Dog in the Night-Time"}
-              imgg={image2}
-            />
-            <Card
-              name={"The Curious Incident of the Dog in the Night-Time"}
-              imgg={image2}
-            />
-            <Card
-              name={"The Curious Incident of the Dog in the Night-Time"}
-              imgg={image2}
-            />
-            <Card name={"Atomic Habits"} imgg={image} />
-            <Card name={"Introduction To Algorithms"} imgg={image1} />
-            <Card name={"Atomic Habits"} imgg={image} />
-            <Card name={"Introduction To Algorithms"} imgg={imggg} />
+            {books.map((book) => (
+              <Card key={book.id} book={book} deleteBook={deleteItem} />
+            ))}
           </div>
         </div>
       </div>

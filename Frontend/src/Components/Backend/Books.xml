@@ -1,3 +1,76 @@
 <books>
+    <book>
+        <imgPath>clrs.jpg</imgPath>
+        <id>1</id>
+        <name>Introduction to algoritms</name>
+        <author>CLRS</author>
+        <issuecost>$ 50</issuecost>
+        <genre>Education</genre>
+        <text>Famous book used in colleges !</text>
+    </book>
+    <book>
+        <imgPath>clrs.jpg</imgPath>
+        <id>2</id>
+        <name>Introduction to algoritms</name>
+        <author>CLRS</author>
+        <issuecost>$ 50</issuecost>
+        <genre>Education</genre>
+        <text>Famous book used in colleges !</text>
+    </book>
+    <book>
+        <imgPath>clrs.jpg</imgPath>
+        <id>3</id>
+        <name>Introduction to algoritms</name>
+        <author>CLRS</author>
+        <issuecost>$ 50</issuecost>
+        <genre>Education</genre>
+        <text>Famous book used in colleges !</text>
+    </book>
+        <book>
+        <imgPath>clrs.jpg</imgPath>
+        <id>4</id>
+        <name>Introduction to algoritms</name>
+        <author>CLRS</author>
+        <issuecost>$ 50</issuecost>
+        <genre>Education</genre>
+        <text>Famous book used in colleges !</text>
+    </book>
+    <book>
+        <imgPath>clrs.jpg</imgPath>
+        <id>5</id>
+        <name>Introduction to algoritms</name>
+        <author>CLRS</author>
+        <issuecost>$ 50</issuecost>
+        <genre>Education</genre>
+        <text>Famous book used in colleges !</text>
+    </book>
+    <book>
+        <imgPath>clrs.jpg</imgPath>
+        <id>6</id>
+        <name>Introduction to algoritms</name>
+        <author>CLRS</author>
+        <issuecost>$ 50</issuecost>
+        <genre>Education</genre>
+        <text>Famous book used in colleges !</text>
+    </book>
+    <book>
+        <imgPath>clrs.jpg</imgPath>
+        <id>7</id>
+        <name>Introduction to algoritms</name>
+        <author>CLRS</author>
+        <issuecost>$ 50</issuecost>
+        <genre>Education</genre>
+        <text>Famous book used in colleges !</text>
+    </book>
+    <book>
+        <imgPath>clrs.jpg</imgPath>
+        <id>8</id>
+        <name>Introduction to algoritms</name>
+        <author>CLRS</author>
+        <issuecost>$ 50</issuecost>
+        <genre>Education</genre>
+        <text>Famous book used in colleges !</text>
+    </book>
+    
     
 </books>

@@ -4,11 +4,13 @@ const path = require("path");
 const fs = require("fs");
 const xpath = require("xpath");
 const express = require("express");
+const cors = require("cors");
 
 const filePath = path.join(__dirname, "Books.xml");
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 app.get("/test", (req, res) => {
   res.send("App is running !");
@@ -23,7 +25,7 @@ app.delete("/delete-item", (req, res) => {
   const id = req.body.id;
 
   let result1 = select(`/books/book[id=${id}]`, doc);
-  if (result1.length == 0) {
+  if (result1.length === 0) {
     res.json("Empty");
   } else {
     result1[0].parentNode.removeChild(result1[0]);

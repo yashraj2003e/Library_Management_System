@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Recursive:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +10,8 @@
 }
 
 .main-page h1 {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Playfair Display", serif;
 }
 
 .main-page-buttons button {
@@ -25,7 +28,7 @@
   border: none;
   font-weight: lighter;
   cursor: pointer;
-  background-color: #14537a;
+  background-color: #011725;
   color: white;
   transform: translate(-50%, -50%);
   transition: all 0.3s;
@@ -41,18 +44,20 @@
   font-weight: lighter;
   cursor: pointer;
   border-radius: 5px;
-  background-color: #14537a;
+  background-color: #011725;
   color: white;
   transform: translate(-50%, -50%);
   transition: all 0.3s;
 }
 
 .main-page-buttons .admin-btn:hover {
+  background-color: #14537a;
   top: 74%;
   box-shadow: 0px 3px 8px 5px yellow;
 }
 
 .main-page-buttons .student-btn:hover {
+  background-color: #14537a;
   top: 74%;
   box-shadow: 0px 3px 8px 5px yellow;
 }
@@ -87,6 +92,7 @@
 }
 
 .search-bar input[type="text"] {
+  font-family: "Roboto", serif;
   font-size: 2rem;
   padding: 9px 25px;
   border: none;
@@ -99,6 +105,7 @@
 }
 
 .search-bar button {
+  font-family: "Recursive", serif;
   font-size: 1.5rem;
   color: wheat;
   padding: 9px 25px;
@@ -143,6 +150,7 @@
 }
 
 .content-section-width h1 {
+  font-family: "Roboto", serif;
   text-align: center;
 }
 
@@ -170,9 +178,12 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   overflow: hidden;
+  min-height: 82vh;
+  max-height: fit-content;
 }
 
 .card {
+  font-family: "Playfair Display", serif;
   overflow: hidden;
   text-align: center;
   margin-top: 2%;

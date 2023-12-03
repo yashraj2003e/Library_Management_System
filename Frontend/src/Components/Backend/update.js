@@ -20,6 +20,7 @@ app.patch("/update-item", (req, res) => {
   const author = req.body.author;
   const issueCost = req.body.cost;
   const data = req.body.text;
+  const genre = req.body.genre;
 
   const xml = fs.readFileSync(filePath).toString();
 
@@ -27,17 +28,19 @@ app.patch("/update-item", (req, res) => {
   const doc = new dom().parseFromString(xml, "application/xml");
   const root = select(`/books/book[id=${id}]`, doc);
 
-  if (root[0].childNodes.length > 7) {
-    root[0].childNodes[3].textContent = name;
-    root[0].childNodes[5].textContent = author;
-    root[0].childNodes[7].textContent = issueCost;
-    root[0].childNodes[9].textContent = data;
+  if (root[0].childNodes.length >= 13) {
+    root[0].childNodes[7].textContent = name;
+    root[0].childNodes[9].textContent = author;
+    root[0].childNodes[11].textContent = issueCost;
+    root[0].childNodes[13].textContent = genre;
+    root[0].childNodes[15].textContent = data;
     console.log(1);
   } else {
-    root[0].childNodes[1].textContent = name;
-    root[0].childNodes[2].textContent = author;
-    root[0].childNodes[3].textContent = issueCost;
-    root[0].childNodes[4].textContent = data;
+    root[0].childNodes[2].textContent = name;
+    root[0].childNodes[3].textContent = author;
+    root[0].childNodes[4].textContent = issueCost;
+    root[0].childNodes[5].textContent = genre;
+    root[0].childNodes[6].textContent = data;
   }
 
   const updatedXml = new XMLSerializer().serializeToString(doc);

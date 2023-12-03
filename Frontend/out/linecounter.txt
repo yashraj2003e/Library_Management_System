@@ -1,0 +1,77 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2023-12-03 02:35:31
+count workspace : d:\SOA Project\SOA_Project\Frontend
+total files : 53
+total code lines : 21600
+total comment lines : 38
+total blank lines : 202
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |          .json|          20507|              0|              7|     95|
+   |               |             18|              1|              5|  0.083|
+   |           .css|            199|              0|             31|   0.92|
+   |            .md|             21|              4|             15|  0.097|
+   |            .js|            534|              8|             81|    2.5|
+   |          .html|             34|             24|              0|   0.16|
+   |           .txt|            285|              1|             62|    1.3|
+   |           .xml|              2|              0|              1| 0.0093|
+   -------------------------------------------------------------------------
+.gitignore, code is 18, comment is 1, blank is 5.
+package-lock.json, code is 17921, comment is 0, blank is 2.
+package.json, code is 36, comment is 0, blank is 3.
+public\favicon.ico, it is a binary file.
+public\index.html, code is 20, comment is 23, blank is 0.
+public\logo192.png, it is a binary file.
+public\logo512.png, it is a binary file.
+public\manifest.json, code is 25, comment is 0, blank is 0.
+public\robots.txt, code is 3, comment is 1, blank is 0.
+README.md, code is 21, comment is 4, blank is 15.
+src\App.js, code is 14, comment is 0, blank is 1.
+src\assets\book.png, it is a binary file.
+src\assets\compan2.png, it is a binary file.
+src\assets\company.png, it is a binary file.
+src\assets\company2.png, it is a binary file.
+src\assets\company3.png, it is a binary file.
+src\assets\company4.png, it is a binary file.
+src\assets\company5.png, it is a binary file.
+src\assets\companyName.png, it is a binary file.
+src\assets\landing_page.jpg, it is a binary file.
+src\assets\landing_page1.jpg, it is a binary file.
+src\assets\landing_page2.jpg, it is a binary file.
+src\assets\landing_page3.png, it is a binary file.
+src\Components\Backend\Books.xml, code is 2, comment is 0, blank is 1.
+src\Components\Backend\create.js, code is 69, comment is 0, blank is 15.
+src\Components\Backend\create_test.js, code is 35, comment is 0, blank is 4.
+src\Components\Backend\delete-all.js, code is 28, comment is 0, blank is 7.
+src\Components\Backend\delete.js, code is 30, comment is 0, blank is 8.
+src\Components\Backend\delete_all_test.js, code is 24, comment is 1, blank is 4.
+src\Components\Backend\delete_item_test.js, code is 30, comment is 1, blank is 4.
+src\Components\Backend\index.html, code is 14, comment is 1, blank is 0.
+src\Components\Backend\multer_test.js, code is 16, comment is 3, blank is 4.
+src\Components\Backend\package-lock.json, code is 2506, comment is 0, blank is 2.
+src\Components\Backend\package.json, code is 19, comment is 0, blank is 0.
+src\Components\Backend\read.js, code is 49, comment is 1, blank is 7.
+src\Components\Backend\read_test.js, code is 0, comment is 0, blank is 0.
+src\Components\Backend\tempCodeRunnerFile.js, code is 3, comment is 0, blank is 0.
+src\Components\Backend\update.js, code is 41, comment is 0, blank is 10.
+src\Components\Backend\update_test.js, code is 35, comment is 0, blank is 4.
+src\Components\Books.js, code is 45, comment is 0, blank is 3.
+src\Components\Cards.js, code is 14, comment is 0, blank is 0.
+src\Components\HomePage.js, code is 53, comment is 1, blank is 5.
+src\Components\images\Abstract.txt, code is 141, comment is 0, blank is 31.
+src\Components\images\atomichabits.jpg, it is a binary file.
+src\Components\images\Boundary.txt, code is 141, comment is 0, blank is 31.
+src\Components\images\clrs.jpg, it is a binary file.
+src\Components\images\curious.jpg, it is a binary file.
+src\Components\Login.js, code is 8, comment is 1, blank is 1.
+src\Components\Logo.js, code is 17, comment is 0, blank is 1.
+src\Components\SearchBar.js, code is 9, comment is 0, blank is 0.
+src\Components\Sidebar.js, code is 4, comment is 0, blank is 1.
+src\index.css, code is 199, comment is 0, blank is 31.
+src\index.js, code is 10, comment is 0, blank is 2.
+===============================================================================
