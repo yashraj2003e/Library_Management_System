@@ -239,3 +239,19 @@
   color: white;
   transform: scale(1.5);
 }
+
+.add-item-card {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  margin: 0 auto;
+  width: 50rem;
+  height: 30rem;
+  border-radius: 50px;
+  background-color: #011725;
+  text-align: center;
+  color: white;
+}
+
+.add-item-card h1 {
+  margin: 0;
+}
