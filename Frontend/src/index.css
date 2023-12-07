@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Recursive:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
 
 * {
   margin: 0;
@@ -18,7 +19,7 @@
   font-family: "Recursive", sans-serif;
 }
 
-.main-page-buttons .admin-btn {
+.admin-btn {
   position: absolute;
   top: 75%;
   left: 65%;
@@ -50,7 +51,7 @@
   transition: all 0.3s;
 }
 
-.main-page-buttons .admin-btn:hover {
+.admin-btn:hover {
   background-color: #14537a;
   top: 74%;
   box-shadow: 0px 3px 8px 5px yellow;
@@ -254,4 +255,72 @@
 
 .add-item-card h1 {
   margin: 0;
+}
+
+.login-boxes {
+  position: absolute;
+  left: 27%;
+  bottom: 40%;
+}
+
+.login-boxes form {
+  font-family: "Ephesis", cursive;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  font-size: 3.5rem;
+}
+
+.login-boxes form input {
+  font-family: "Playfair Display", serif;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  padding: 9px 25px;
+  border: none;
+  outline: none;
+  background-color: rgb(219, 218, 218);
+  transition: 0.5s all;
+}
+
+.login-boxes form button {
+  padding: 9px 25px;
+  font-size: 1rem;
+  width: 8rem;
+  text-align: center;
+  position: absolute;
+  top: 120%;
+  left: 45%;
+  transition: 0.5s all;
+}
+
+.login-boxes form button:hover {
+  top: 120%;
+}
+
+.login-boxes form input:focus {
+  box-shadow: 0px 15px 15px rgb(81, 80, 80);
+}
+
+.login-buttons {
+  position: absolute;
+}
+
+.login-right-button {
+  background-color: #6f8391;
+  color: white;
+  position: absolute;
+  padding: 9px 25px;
+  width: 9rem;
+  font-size: 1rem;
+  bottom: 1.5rem;
+  left: 8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s;
+}
+
+.login-right-button:hover {
+  background-color: #14537a;
+  box-shadow: 0px 3px 8px 5px yellow;
 }

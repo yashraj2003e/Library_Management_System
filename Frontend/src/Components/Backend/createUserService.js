@@ -4,11 +4,6 @@ const filePath = "data.txt";
 
 const fileContent = fs.readFileSync(filePath, "utf-8").split(/\r?\n/);
 
-if (fileContent.length < 2) {
-  console.error("Insufficient lines in the file");
-  process.exit(1);
-}
-
 const userName = fileContent[0].trim();
 const userPass = fileContent[1].trim();
 
