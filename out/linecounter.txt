@@ -48,3 +48,110 @@ package-lock.json, code is 19114, comment is 0, blank is 3.
 package.json, code is 36, comment is 0, blank is 3.
 README.md, code is 21, comment is 4, blank is 15.
 ===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2023-12-08 08:47:51
+count workspace : d:\SOA Project\SOA_Project
+total files : 83
+total code lines : 44065
+total comment lines : 49
+total blank lines : 360
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |          .json|          42211|              0|             15|     96|
+   |           .txt|            293|              1|             62|   0.66|
+   |               |             36|              2|             10|  0.082|
+   |            .md|             42|              8|             30|  0.095|
+   |           .css|            283|              1|             42|   0.64|
+   |            .js|           1160|             13|            195|    2.6|
+   |           .xml|              6|              0|              6|  0.014|
+   |          .html|             34|             24|              0|  0.077|
+   -------------------------------------------------------------------------
+.gitignore, code is 18, comment is 1, blank is 5.
+Backend\Books.xml, code is 2, comment is 0, blank is 1.
+Backend\create.js, code is 46, comment is 0, blank is 12.
+Backend\create_test.js, code is 35, comment is 0, blank is 4.
+Backend\createUserService.js, code is 39, comment is 0, blank is 6.
+Backend\data.txt, code is 2, comment is 0, blank is 0.
+Backend\data.xml, code is 2, comment is 0, blank is 0.
+Backend\delete-all.js, code is 28, comment is 0, blank is 7.
+Backend\delete.js, code is 30, comment is 0, blank is 8.
+Backend\delete_all_test.js, code is 24, comment is 1, blank is 4.
+Backend\delete_item_test.js, code is 30, comment is 1, blank is 4.
+Backend\index.html, code is 14, comment is 1, blank is 0.
+Backend\multer_test.js, code is 16, comment is 3, blank is 4.
+Backend\package-lock.json, code is 2527, comment is 0, blank is 2.
+Backend\package.json, code is 20, comment is 0, blank is 0.
+Backend\read.js, code is 49, comment is 1, blank is 7.
+Backend\read_test.js, code is 0, comment is 0, blank is 0.
+Backend\runCreateUserService.js, code is 24, comment is 5, blank is 9.
+Backend\searchUserService.js, code is 25, comment is 0, blank is 2.
+Backend\tempCodeRunnerFile.js, code is 3, comment is 0, blank is 0.
+Backend\update.js, code is 41, comment is 0, blank is 10.
+Backend\update_test.js, code is 35, comment is 0, blank is 4.
+Frontend\.gitignore, code is 18, comment is 1, blank is 5.
+Frontend\package-lock.json, code is 17927, comment is 0, blank is 2.
+Frontend\package.json, code is 37, comment is 0, blank is 3.
+Frontend\public\favicon.ico, it is a binary file.
+Frontend\public\index.html, code is 20, comment is 23, blank is 0.
+Frontend\public\logo192.png, it is a binary file.
+Frontend\public\logo512.png, it is a binary file.
+Frontend\public\manifest.json, code is 25, comment is 0, blank is 0.
+Frontend\public\robots.txt, code is 3, comment is 1, blank is 0.
+Frontend\README.md, code is 21, comment is 4, blank is 15.
+Frontend\src\App.js, code is 18, comment is 0, blank is 1.
+Frontend\src\assets\book.png, it is a binary file.
+Frontend\src\assets\compan2.png, it is a binary file.
+Frontend\src\assets\company.png, it is a binary file.
+Frontend\src\assets\company2.png, it is a binary file.
+Frontend\src\assets\company3.png, it is a binary file.
+Frontend\src\assets\company4.png, it is a binary file.
+Frontend\src\assets\company5.png, it is a binary file.
+Frontend\src\assets\companyName.png, it is a binary file.
+Frontend\src\assets\landing_page.jpg, it is a binary file.
+Frontend\src\assets\landing_page1.jpg, it is a binary file.
+Frontend\src\assets\landing_page2.jpg, it is a binary file.
+Frontend\src\assets\landing_page3.png, it is a binary file.
+Frontend\src\Components\AddItem.js, code is 7, comment is 0, blank is 0.
+Frontend\src\Components\Backend\Books.xml, code is 2, comment is 0, blank is 5.
+Frontend\src\Components\Backend\checkUserCredentials.js, code is 30, comment is 0, blank is 8.
+Frontend\src\Components\Backend\create.js, code is 74, comment is 0, blank is 15.
+Frontend\src\Components\Backend\createUserService.js, code is 34, comment is 0, blank is 5.
+Frontend\src\Components\Backend\data.txt, code is 2, comment is 0, blank is 0.
+Frontend\src\Components\Backend\delete-all.js, code is 28, comment is 0, blank is 7.
+Frontend\src\Components\Backend\delete.js, code is 32, comment is 0, blank is 8.
+Frontend\src\Components\Backend\getUserService.js, code is 36, comment is 0, blank is 6.
+Frontend\src\Components\Backend\output.txt, code is 2, comment is 0, blank is 0.
+Frontend\src\Components\Backend\package-lock.json, code is 2506, comment is 0, blank is 2.
+Frontend\src\Components\Backend\package.json, code is 19, comment is 0, blank is 0.
+Frontend\src\Components\Backend\read.js, code is 49, comment is 0, blank is 5.
+Frontend\src\Components\Backend\runCreateUserService.js, code is 19, comment is 0, blank is 6.
+Frontend\src\Components\Backend\update.js, code is 44, comment is 0, blank is 10.
+Frontend\src\Components\Backend\update_test.js, code is 35, comment is 0, blank is 4.
+Frontend\src\Components\Backend\writeUserCredentials.js, code is 23, comment is 0, blank is 5.
+Frontend\src\Components\Books.js, code is 81, comment is 0, blank is 11.
+Frontend\src\Components\Cards.js, code is 26, comment is 0, blank is 4.
+Frontend\src\Components\HomePage.js, code is 57, comment is 1, blank is 6.
+Frontend\src\Components\images\Abstract.txt, code is 141, comment is 0, blank is 31.
+Frontend\src\Components\images\atomichabits.jpg, it is a binary file.
+Frontend\src\Components\images\bloodysweet.jpg, it is a binary file.
+Frontend\src\Components\images\bloodysweet.png, it is a binary file.
+Frontend\src\Components\images\Boundary.txt, code is 141, comment is 0, blank is 31.
+Frontend\src\Components\images\clrs.jpg, it is a binary file.
+Frontend\src\Components\images\COP28 Banner  (1).png, it is a binary file.
+Frontend\src\Components\images\curious.jpg, it is a binary file.
+Frontend\src\Components\Login.js, code is 102, comment is 1, blank is 9.
+Frontend\src\Components\Logo.js, code is 17, comment is 0, blank is 1.
+Frontend\src\Components\SearchBar.js, code is 9, comment is 0, blank is 0.
+Frontend\src\Components\Sidebar.js, code is 4, comment is 0, blank is 1.
+Frontend\src\index.css, code is 283, comment is 1, blank is 42.
+Frontend\src\index.js, code is 10, comment is 0, blank is 2.
+output.txt, code is 2, comment is 0, blank is 0.
+package-lock.json, code is 19114, comment is 0, blank is 3.
+package.json, code is 36, comment is 0, blank is 3.
+README.md, code is 21, comment is 4, blank is 15.
+===============================================================================

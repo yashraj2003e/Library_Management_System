@@ -221,6 +221,577 @@
                     "filename": "README.md"
                 }
             ]
+        },
+        {
+            "version": "0.2.7",
+            "counttime": "2023-12-08 08:47:51",
+            "filesum": 83,
+            "codesum": 44065,
+            "commentsum": 49,
+            "blanksum": 360,
+            "statistics": {
+                ".json": {
+                    "code": 42211,
+                    "comment": 0,
+                    "blank": 15
+                },
+                ".txt": {
+                    "code": 293,
+                    "comment": 1,
+                    "blank": 62
+                },
+                "": {
+                    "code": 36,
+                    "comment": 2,
+                    "blank": 10
+                },
+                ".md": {
+                    "code": 42,
+                    "comment": 8,
+                    "blank": 30
+                },
+                ".css": {
+                    "code": 283,
+                    "comment": 1,
+                    "blank": 42
+                },
+                ".js": {
+                    "code": 1160,
+                    "comment": 13,
+                    "blank": 195
+                },
+                ".xml": {
+                    "code": 6,
+                    "comment": 0,
+                    "blank": 6
+                },
+                ".html": {
+                    "code": 34,
+                    "comment": 24,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Backend\\Books.xml"
+                },
+                {
+                    "blank": 12,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "Backend\\create.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "Backend\\create_test.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "Backend\\createUserService.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Backend\\data.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Backend\\data.xml"
+                },
+                {
+                    "blank": 7,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "Backend\\delete-all.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "Backend\\delete.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 24,
+                    "comment": 1,
+                    "filename": "Backend\\delete_all_test.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 30,
+                    "comment": 1,
+                    "filename": "Backend\\delete_item_test.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 1,
+                    "filename": "Backend\\index.html"
+                },
+                {
+                    "blank": 4,
+                    "code": 16,
+                    "comment": 3,
+                    "filename": "Backend\\multer_test.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 2527,
+                    "comment": 0,
+                    "filename": "Backend\\package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "Backend\\package.json"
+                },
+                {
+                    "blank": 7,
+                    "code": 49,
+                    "comment": 1,
+                    "filename": "Backend\\read.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "Backend\\read_test.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 24,
+                    "comment": 5,
+                    "filename": "Backend\\runCreateUserService.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "Backend\\searchUserService.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "Backend\\tempCodeRunnerFile.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "Backend\\update.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "Backend\\update_test.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": "Frontend\\.gitignore"
+                },
+                {
+                    "blank": 2,
+                    "code": 17927,
+                    "comment": 0,
+                    "filename": "Frontend\\package-lock.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "Frontend\\package.json"
+                },
+                {
+                    "filename": "Frontend\\public\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 23,
+                    "filename": "Frontend\\public\\index.html"
+                },
+                {
+                    "filename": "Frontend\\public\\logo192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\public\\logo512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "Frontend\\public\\manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "Frontend\\public\\robots.txt"
+                },
+                {
+                    "blank": 15,
+                    "code": 21,
+                    "comment": 4,
+                    "filename": "Frontend\\README.md"
+                },
+                {
+                    "blank": 1,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\App.js"
+                },
+                {
+                    "filename": "Frontend\\src\\assets\\book.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\assets\\compan2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\assets\\company.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\assets\\company2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\assets\\company3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\assets\\company4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\assets\\company5.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\assets\\companyName.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\assets\\landing_page.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\assets\\landing_page1.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\assets\\landing_page2.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\assets\\landing_page3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\AddItem.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\Backend\\Books.xml"
+                },
+                {
+                    "blank": 8,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\Backend\\checkUserCredentials.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 74,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\Backend\\create.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\Backend\\createUserService.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\Backend\\data.txt"
+                },
+                {
+                    "blank": 7,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\Backend\\delete-all.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\Backend\\delete.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\Backend\\getUserService.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\Backend\\output.txt"
+                },
+                {
+                    "blank": 2,
+                    "code": 2506,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\Backend\\package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\Backend\\package.json"
+                },
+                {
+                    "blank": 5,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\Backend\\read.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\Backend\\runCreateUserService.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\Backend\\update.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\Backend\\update_test.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\Backend\\writeUserCredentials.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 81,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\Books.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\Cards.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 57,
+                    "comment": 1,
+                    "filename": "Frontend\\src\\Components\\HomePage.js"
+                },
+                {
+                    "blank": 31,
+                    "code": 141,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\images\\Abstract.txt"
+                },
+                {
+                    "filename": "Frontend\\src\\Components\\images\\atomichabits.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\Components\\images\\bloodysweet.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\Components\\images\\bloodysweet.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 31,
+                    "code": 141,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\images\\Boundary.txt"
+                },
+                {
+                    "filename": "Frontend\\src\\Components\\images\\clrs.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\Components\\images\\COP28 Banner  (1).png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend\\src\\Components\\images\\curious.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 9,
+                    "code": 102,
+                    "comment": 1,
+                    "filename": "Frontend\\src\\Components\\Login.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\Logo.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\SearchBar.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\Components\\Sidebar.js"
+                },
+                {
+                    "blank": 42,
+                    "code": 283,
+                    "comment": 1,
+                    "filename": "Frontend\\src\\index.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "Frontend\\src\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "output.txt"
+                },
+                {
+                    "blank": 3,
+                    "code": 19114,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 15,
+                    "code": 21,
+                    "comment": 4,
+                    "filename": "README.md"
+                }
+            ]
         }
     ]
 }

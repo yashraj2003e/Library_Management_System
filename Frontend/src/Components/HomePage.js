@@ -3,7 +3,7 @@ import image from "../assets/landing_page.jpg";
 import "../index.css";
 import companyLogo from "../assets/company3.png";
 
-export default function HomePage({ isLogin }) {
+export default function HomePage({ isLogin, setAdmin }) {
   const imageStyle = {
     objectFit: "cover",
     width: "100%",
@@ -33,6 +33,11 @@ export default function HomePage({ isLogin }) {
     color: "#0c2f5b",
   };
 
+  function set() {
+    setAdmin((admin) => !admin);
+    isLogin((f) => !f);
+  }
+
   return (
     <>
       <div className="main-page" style={{ overflow: "hidden" }}>
@@ -49,7 +54,7 @@ export default function HomePage({ isLogin }) {
         <h1 style={headingStyle2}>System</h1>
       </div>
       <div className="main-page-buttons">
-        <button className="admin-btn" onClick={() => isLogin((f) => !f)}>
+        <button className="admin-btn" onClick={() => set()}>
           Admin
         </button>
         <button className="student-btn">Student</button>

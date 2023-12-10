@@ -6,12 +6,14 @@ import AddItem from "./Components/AddItem";
 
 export default function App() {
   const [isLogin, setIsLogin] = useState(false);
+  const [admin, setAdmin] = useState(false);
   return (
     <div>
-      {/* {!isLogin && <HomePage isLogin={setIsLogin} />}*/}
-      <Login />
-      {/* <Books /> */}
-      {/* <AddItem /> */}
+      {!isLogin && !admin && (
+        <HomePage isLogin={setIsLogin} setAdmin={setAdmin} />
+      )}
+      {isLogin && <Login setIsLogging={setIsLogin} />}
+      {admin && <Books />}
     </div>
   );
 }

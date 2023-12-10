@@ -6,7 +6,10 @@ export default function Card({ book, deleteBook }) {
   useEffect(() => {
     const loadImage = async () => {
       try {
-        const imgModule = await import(`./images/${book.imgPath}`);
+        console.log(book.imgPath);
+        const imgModule = await import(
+          `../Components/Backend/images/${book.imgPath}`
+        );
         setImage(imgModule.default);
       } catch (error) {
         console.error("Error loading image:", error);
@@ -14,7 +17,7 @@ export default function Card({ book, deleteBook }) {
     };
 
     loadImage();
-  }, []);
+  }, [book.imgPath]);
 
   return (
     <div className="card">

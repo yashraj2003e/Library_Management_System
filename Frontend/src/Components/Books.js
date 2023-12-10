@@ -16,7 +16,7 @@ async function getBooks() {
 
 async function deleteBook1(id) {
   try {
-    const response = await fetch("http://127.0.0.1:8084/delete-item", {
+    const response = await fetch("http://localhost:8084/delete-item", {
       method: "DELETE",
       body: JSON.stringify({
         id: id,
@@ -27,12 +27,12 @@ async function deleteBook1(id) {
     });
 
     if (!response.ok) {
+      console.log("ERRORR");
       const message = "ERROR!";
       throw new Error(message);
     }
 
-    const res = await response.json();
-    return res;
+    return 1;
   } catch (error) {
     console.error("Error:", error.message);
     throw error;
@@ -41,6 +41,7 @@ async function deleteBook1(id) {
 
 function Books() {
   const [books, setBooks] = useState([]);
+  const [showAddItem, setshowAddItem] = useState(false);
 
   useEffect(() => {
     async function fetchData() {
@@ -53,7 +54,7 @@ function Books() {
     }
 
     fetchData();
-  }, []);
+  }, [showAddItem]);
 
   const deleteItem = async (id) => {
     try {
@@ -61,6 +62,7 @@ function Books() {
       const data = await getBooks();
       setBooks(data);
     } catch (error) {
+      console.log(error);
       console.log("CANNOT DELETE !");
     }
   };
@@ -68,23 +70,25 @@ function Books() {
   return (
     <>
       <div className="books-page">
-        <SearchBar />
+        <SearchBar showAddItem={showAddItem} setshowAddItem={setshowAddItem} />
         <Logo />
       </div>
 
-      <div className="content-section">
-        <div className="content-section-width">
-          <h1>
-            Total <span className="gold-word">{books.length}</span> Book(s)
-            Found
-          </h1>
-          <div className="cards">
-            {books.map((book) => (
-              <Card key={book.id} book={book} deleteBook={deleteItem} />
-            ))}
+      {!showAddItem && (
+        <div className="content-section">
+          <div className="content-section-width">
+            <h1>
+              Total <span className="gold-word">{books.length}</span> Book(s)
+              Found
+            </h1>
+            <div className="cards">
+              {books.map((book) => (
+                <Card key={book.id} book={book} deleteBook={deleteItem} />
+              ))}
+            </div>
           </div>
         </div>
-      </div>
+      )}
     </>
   );
 }
