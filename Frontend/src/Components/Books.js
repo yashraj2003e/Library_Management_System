@@ -70,7 +70,11 @@ function Books() {
   return (
     <>
       <div className="books-page">
-        <SearchBar showAddItem={showAddItem} setshowAddItem={setshowAddItem} />
+        <SearchBar
+          showAddItem={showAddItem}
+          setshowAddItem={setshowAddItem}
+          setBooks={setBooks}
+        />
         <Logo />
       </div>
 

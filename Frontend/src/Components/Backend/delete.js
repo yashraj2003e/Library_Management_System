@@ -6,7 +6,7 @@ const xpath = require("xpath");
 const express = require("express");
 const cors = require("cors");
 
-const filePath = path.join(__dirname, "Books.xml");
+const filePath = path.join(__dirname, "./Books.xml");
 
 const app = express();
 app.use(express.json());
@@ -23,10 +23,12 @@ app.delete("/delete-item", (req, res) => {
   const doc = new dom().parseFromString(xml, "application/xml");
 
   const id = req.body.id;
-
+  console.log(id);
   let result1 = select(`/books/book[id=${id}]`, doc);
+  console.log(result1.textContent);
   if (result1.length === 0) {
     res.json("Empty");
+    console.log(1);
   } else {
     result1[0].parentNode.removeChild(result1[0]);
     const updatedXml = new XMLSerializer().serializeToString(doc);

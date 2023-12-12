@@ -1,6 +1,6 @@
 const dom = require("xmldom").DOMParser;
-const XMLSerializer = require("xmldom").XMLSerializer;
 const path = require("path");
+const cors = require("cors");
 const fs = require("fs");
 const xpath = require("xpath");
 const express = require("express");
@@ -9,24 +9,29 @@ const filePath = path.join(__dirname, "Books.xml");
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 app.get("/test", (_req, res) => {
   res.send("App is running !");
 });
 
 app.delete("/delete-all", (req, res) => {
-  const xml = fs.readFileSync(filePath).toString();
+  try {
+    const xml = fs.readFileSync(filePath).toString();
 
-  const select = xpath.useNamespaces({});
-  const doc = new dom().parseFromString(xml, "application/xml");
+    const select = xpath.useNamespaces({});
+    const doc = new dom().parseFromString(xml, "application/xml");
 
-  const totalBooks = select("/books/*", doc);
-  if (totalBooks.length === 0) {
-    res.json("File is already Empty !");
-  } else {
-    fs.truncateSync(filePath);
-    fs.writeFileSync(filePath, "<books></books>");
-    res.json("Deleted");
+    const totalBooks = select("/books/*", doc);
+    if (totalBooks.length === 0) {
+      res.json(0);
+    } else {
+      fs.truncateSync(filePath);
+      fs.writeFileSync(filePath, "<books></books>");
+      res.json(1);
+    }
+  } catch (e) {
+    res.json(-1);
   }
 });
 

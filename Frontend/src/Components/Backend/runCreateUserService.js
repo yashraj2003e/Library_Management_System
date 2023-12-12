@@ -9,22 +9,15 @@ app.use(cors());
 
 app.get("/test", (req, res) => res.send("Working"));
 
-app.get("/working", (req, res) => {
-  console.log("This is the main app.");
-
+app.get("/createUser", (req, res) => {
   const childProcess = spawn("node", ["./createUserService.js"]);
   childProcess.stdout.on("data", (data) => {
-    console.log(`Output from anotherFile: ${data}`);
+    res.send(`${data}`);
   });
 
   childProcess.stderr.on("data", (data) => {
-    console.error(`Error from anotherFile: ${data}`);
+    res.send(-1);
   });
-
-  childProcess.on("close", (code) => {
-    console.log(`anotherFile process exited with code ${code}`);
-  });
-  res.json("ok");
 });
 
 app.listen(8087, () => {

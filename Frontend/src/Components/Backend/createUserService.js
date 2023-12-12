@@ -10,19 +10,18 @@ const userPass = fileContent[1].trim();
 async function getData() {
   try {
     const response = await fetch(
-      "http://localhost:8080/Authorization-1.0-SNAPSHOT/setDataService",
+      "http://localhost:8080/Authorization-1.0-SNAPSHOT/AddUserData",
       {
         method: "POST",
-        body: `<?xml version="1.0" encoding="UTF-8"?>
-          <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-              <SOAP-ENV:Header/>
-              <S:Body>
-                  <ns2:setUserData xmlns:ns2="http://authorization.authorization.com/">
-                      <arg0>${userName}</arg0>
-                      <arg1>${userPass}</arg1>
-                  </ns2:setUserData>
-              </S:Body>
-          </S:Envelope>`,
+        body: `<?xml version="1.0" encoding="UTF-8"?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+                  <SOAP-ENV:Header/>
+                    <S:Body>
+                      <ns2:AddUserData xmlns:ns2="http://www.validateUserData.com">
+                          <arg0>${userName}</arg0>
+                          <arg1>${userPass}</arg1>
+                      </ns2:AddUserData>
+                    </S:Body>
+                </S:Envelope>`,
         headers: {
           "Content-type": "text/xml",
         },
