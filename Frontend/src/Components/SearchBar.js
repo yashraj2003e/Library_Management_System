@@ -1,8 +1,24 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import AddItem from "./AddItem";
 
-export default function SearchBar({ showAddItem, setshowAddItem, setBooks }) {
+export default function SearchBar({
+  showAddItem,
+  setshowAddItem,
+  getBooks,
+  setBooks,
+}) {
   const [curInput, setInput] = useState("");
+
+  useEffect(() => {
+    async function oldBooks() {
+      if (curInput === "") {
+        let books = await getBooks();
+        console.log(books);
+        setBooks(books);
+      }
+    }
+    oldBooks();
+  }, [curInput]);
 
   async function deleteAll() {
     const result = await fetch("http://localhost:8085/delete-all", {

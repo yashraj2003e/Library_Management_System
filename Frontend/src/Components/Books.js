@@ -74,6 +74,7 @@ function Books() {
           showAddItem={showAddItem}
           setshowAddItem={setshowAddItem}
           setBooks={setBooks}
+          getBooks={getBooks}
         />
         <Logo />
       </div>

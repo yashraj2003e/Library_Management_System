@@ -1,5 +1,4 @@
 const dom = require("xmldom").DOMParser;
-const XMLSerializer = require("xmldom").XMLSerializer;
 const path = require("path");
 const fs = require("fs");
 const xpath = require("xpath");
@@ -21,19 +20,13 @@ app.post("/search-items", (req, res) => {
   const xml = fs.readFileSync(filePath).toString();
   const select = xpath.useNamespaces({});
   const doc = new dom().parseFromString(xml, "application/xml");
-  const books = select(`/books/book/*[contains(text(), '${query}')]`, doc);
-  console.log(
-    `/books/book/*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '${query}')]`
-  );
-  console.log(books.length);
-  console.log(query);
+  const books = select(`/books/book[contains(name, '${query}')]`, doc);
   const arr = [];
   if (books.length === 0) {
     res.json(0);
   } else {
     for (let i = 0; i < books.length; i++) {
-      const root = books[i].parentNode;
-      console.log(root.childNodes.length);
+      let root = books[i];
       if (root.childNodes.length >= 13) {
         const bookData = {
           imgPath: root.childNodes[1].textContent,
@@ -58,7 +51,6 @@ app.post("/search-items", (req, res) => {
         arr.push(bookData);
       }
     }
-    console.log(arr);
     res.json(arr);
   }
 });
