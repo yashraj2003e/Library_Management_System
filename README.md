@@ -1,3 +1,24 @@
+# <u> Project Description </u>
+* This is an Assignment Project developed for CSE3125 Service Oriented Architecture (SOA) Coursework. The main task of this course was to demonstrate working of web services using SOAP Proctocol to generate WSDL (Web Services Definition Language) file. In Addition to SOAP Protocol, Rest Protocol was also used and developed using Javascript. This combination is not generally recommended, but as me and my teammates were more familiar with REST API, we considered adding it for this Project.
+
+# <u>Snapshots</u>
+>Main Screen
+<img src="./assets/1.png"></img>
+<br/><br/>
+> Login Screen
+<img src="./assets/5.png"></img>
+<br/><br/>
+> Home Page
+<img src="./assets/4.png"></img>
+<br/><br/>
+> Search Service
+<img src="./assets/3.png"></img>
+<br/><br/>
+> Add Item Service
+<img src="./assets/2.png"></img>
+<br/><br/>
+
+* Totally, 9 web services are written in Javascript and 2 are written in Java using Jakarta Java Web Services.
 ## Further Improvements:
   1. Better Error Handling
   2. Code Structuring
