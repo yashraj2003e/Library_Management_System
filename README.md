@@ -1,6 +1,7 @@
-> Further Improvements:
-  * Better Error Handling
-
+## Further Improvements:
+  1. Better Error Handling
+  2. Code Structuring
+  3. Adding the Student Feature
 
 # Getting Started with Create React App
 
